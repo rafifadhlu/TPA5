@@ -85,7 +85,6 @@ const DisplayTodos = (props) => {
                 );
               })
             : null}
-          {/* for all items */}
           {props.todos.length > 0 && sort === "all"
             ? props.todos.map((item) => {
                 return (
